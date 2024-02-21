@@ -166,13 +166,13 @@ A partir de agora, não precisa mais abrir o powershell como administrador!
 
 Abra configurações do powershell > Abrir arquivo json; (usei o VSCode)
 
-[configurações do powershell](./imagens/OhMyPosh/20_configuracoesDoPowershell.png)
+![configurações do powershell](./imagens/OhMyPosh/20_configuracoesDoPowershell.png)
 
 Adicione o trecho de código como mostra abaixo:
-[Código](./imagens/OhMyPosh/21_configuracaoPadraoPowershell.png)
+![Código](./imagens/OhMyPosh/21_configuracaoPadraoPowershell.png)
 
 ou, vá em configurações padrões, em Powershel:
-[Configurações > Aparência](./imagens/OhMyPosh/22_aparencia.png)
+![Configurações > Aparência](./imagens/OhMyPosh/22_aparencia.png)
 
 executando terminal do VSCode como adm
 ```bash
@@ -185,7 +185,7 @@ Adicione no arquivo .json do VS Code:
 ```bash
 "terminal.integrated.fontFamily": "Hack Nerd Font"
 ```
-[configuração](./imagens/OhMyPosh/23_configuracaoTerminalVSCode.png)
+![configuração](./imagens/OhMyPosh/23_configuracaoTerminalVSCode.png)
 
 [Vídeo](https://www.youtube.com/watch?v=-6YVarfmw48)
 
