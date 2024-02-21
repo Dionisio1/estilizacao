@@ -194,3 +194,4 @@ Alterar a fonte do terminal
 "terminal.integrated.fontSize": 18,
 ```  
 Espero que tenha ajudado! \o/
+Até a próxima!
