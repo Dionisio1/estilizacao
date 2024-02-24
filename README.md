@@ -3,7 +3,7 @@ Sejam  todos muito bem vindos!
 Aqui vamos aprender como estilizar os icones do cmd.
 
 ## Repositório
-Podemos encontrar nosso material no repositório [Terminal-icons](https://github.com/devblackops/Terminal-Icons)
+[Z](https://github.com/badmotorfinger/z)
 
 ## Instalação
 Instalando módulo da galeria do Powershell:
@@ -11,24 +11,39 @@ Instalando módulo da galeria do Powershell:
 - Execute o comando abaixo;
 
 ```bash
-Install-Module -Name Terminal-Icons -Repository PSGallery
+Install-Module -Name z -Force
 ```
-![Baixando Módulo](./imagens/Terminal-Icons/1_baixando_modulo_terminal_icons.png)
+- Feche o prompt Powershell para atualizar com o novo módulo;
 
-- Abra o arquivo de configuração, usando o comando:
-```bash
-notepad $PROFILE
+### Exemplos
 ```
-- Adicione o código abaixo no arquivo:
-```bash
-#Terminal-icons
-Import-Module -Name Terminal-Icons
+z foo				cd to most frecent folder matching foo
+
+z temp				cd to most frecent folder matching `Temporary ASP.NET Files`
+
+z foo -o r			cd to highest ranked folder matching foo
+
+z foo -o f			cd to highest frecency folder matching foo
+
+z foo -o t			cd to the most recently accessed folder matching foo
+
+z -l foo			list all dirs matching regex foo
+
+z -l				list all entries
+
+z office			cd to most frecent folder matching office in drive HKLM (The registry)
+
+z -x				remove the current directory from the datafile
+
+z -clean			delete inaccessible paths from the datafile
+
+z c:\windows			go to c:\windows and log in the datafile (works with any valid path)
+
+z c<TAB>			expand entries in the datafile which match 'c'
 ```
-![Adicionando trecho de código no arquivo de configuração](./imagens/Terminal-Icons/2_adicionandoCodigoAoArquivo.png)
-- Salve o arquivo;
-- Feche o arquivo $PROFILE;
+
 
 Divirta-se! \o/
 
 ### Vídeos associados
-[Terminal Icons](https://www.youtube.com/watch?v=84e2R5nMLo8)
+[Z Folder Jumper](https://www.youtube.com/watch?v=fviSilPKIhs&t=1390s)
