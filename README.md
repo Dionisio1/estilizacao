@@ -13,7 +13,7 @@ Instalando módulo da galeria do Powershell:
 ```bash
 Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
-![Baixando Módulo](./imagens/Icons/1_baixando_modulo_terminal_icons.png)
+![Baixando Módulo](./imagens/Terminal-Icons/1_baixando_modulo_terminal_icons.png)
 
 - Abra o arquivo de configuração, usando o comando:
 ```bash
@@ -24,7 +24,7 @@ notepad $PROFILE
 #Terminal-icons
 Import-Module -Name Terminal-Icons
 ```
-![Adicionando trecho de código no arquivo de configuração](./imagens/Icons/2_adicionandoCodigoAoArquivo.png)
+![Adicionando trecho de código no arquivo de configuração](./imagens/Terminal-Icons/2_adicionandoCodigoAoArquivo.png)
 - Salve o arquivo;
 - Feche o arquivo $PROFILE;
 
